@@ -1,26 +1,29 @@
 @media only screen and (min-width: 768px){
     /*////====  CSS START ====///  min-width 768px  /*/
     /* Header start */
-    header{
-        height: 600px;
+    h2{
+        letter-spacing: 10px;
+        font-size: 50px;
+        padding: 50px 0;
     }
     .navbar-header{
         float: right;
         position: relative;
-        margin-top: 65px;
-    }
-    .navbar-header h1 a p{
-        margin-bottom: 20px;
+        margin-top: 10px;
     }
     .navbar-nav {
         float: none;
         width: auto;
         position: relative;
         display: inline-block;
-        margin-top: 115px;
+        margin-top: 40px;
     }
     .navbar-default .navbar-nav>li>a{
         margin-left: 15px;
+    }
+    header h2 span:last-child{
+        font-size: 25px;
+        padding: 15px;
     }
     /* /Header end */
     /*////====  CSS END ====////*/
@@ -59,13 +62,31 @@
 
 @media only screen and (min-width: 992px){
     /*////====  CSS START ====///  min-width 992px  /*/
+    h2{
+        letter-spacing: 5px;
+        font-size: 75px;
+        padding: 100px 0;
+    }
+    .navbar-header h1 a p{
+        margin-bottom: 20px;
+    }
     header{
-        height: 800px;
+        max-height: 800px;
     }
     .navbar-default .navbar-nav>li>a{
         margin-left: 50px;
     }
-    
+    .navbar-header{
+        margin-top: 35px;
+    }
+    .navbar-nav {
+        margin-top: 80px;
+    }
+    header h2 span:last-child{
+        font-size: 30px;
+        padding: 25px 15px;
+    }
+
     /*////====  CSS END ====////*/
 
 
@@ -102,11 +123,26 @@
 
 @media only screen and (min-width: 1200px){
     /*////====  CSS START ====///  min-width 1200px  /*/
+    h2{
+        letter-spacing: 10px;
+        font-size: 90px;
+        padding: 270px 0 290px 0;
+    }
     header{
-        height: 1200px;
+        max-height: 1200px;
     }
     .navbar-default .navbar-nav>li>a {
         font-size: 16px;
+    }
+    .navbar-header{
+        margin-top: 65px;
+    }
+    .navbar-nav {
+        margin-top: 115px;
+    }
+    header h2 span:last-child{
+        font-size: 39px;
+        padding: 35px 25px;
     }
     /*////====  CSS END ====////*/
 

@@ -1,8 +1,10 @@
 /* For all pages */
 h2{
-    font-size: 90px;
+    font-size: 30px;
     font-family: 'Playfair Display', serif;
     color: #fff;
+    letter-spacing: 2px;
+    padding: 0px;
 }
 h3 .vito{
     font-size: 60px;
@@ -48,10 +50,21 @@ body{
     padding: 0px;
 }
 header{
-    background-image: url("style-img/image-06-BandW.jpg");
+    background-image: url("style-img/black&white1.png");
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: top center;
     background-size: cover;
+    max-height: 1200px;
+}
+header h2 span:last-child{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 0px;
+}
+header h2 span{
+    width: 100%;
+    padding: 10px 40px;;
 }
 .navbar-nav{
     width: 100%;
@@ -66,7 +79,7 @@ header{
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     color: #fff;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     letter-spacing: 2px;
 }
 .navbar-header h1{
@@ -93,6 +106,9 @@ header{
     border-bottom: 3px solid #fff;
     border-radius: 0px;
     transition: ease 0.3s;
+}
+.navbar {
+    margin-bottom: 0px;
 }
 .navbar-toggle:active,
 .navbar-toggle:focus,
