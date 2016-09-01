@@ -1,8 +1,26 @@
 @media only screen and (min-width: 768px){
     /*////====  CSS START ====///  min-width 768px  /*/
     /* Header start */
+    header{
+        height: 600px;
+    }
+    .navbar-header{
+        float: right;
+        position: relative;
+        margin-top: 65px;
+    }
+    .navbar-header h1 a p{
+        margin-bottom: 20px;
+    }
     .navbar-nav {
         float: none;
+        width: auto;
+        position: relative;
+        display: inline-block;
+        margin-top: 115px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        margin-left: 15px;
     }
     /* /Header end */
     /*////====  CSS END ====////*/
@@ -40,35 +58,41 @@
 
 
 @media only screen and (min-width: 992px){
-    /*////====  CSS START ====///  min-width 768px  /*/
+    /*////====  CSS START ====///  min-width 992px  /*/
+    header{
+        height: 800px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        margin-left: 50px;
+    }
+    
+    /*////====  CSS END ====////*/
+
+
+
+
+    /*////====  CSS START ====///  min-width 992px  /*/
 
     /*////====  CSS END ====////*/
 
 
 
 
-    /*////====  CSS START ====///  min-width 768px  /*/
+    /*////====  CSS START ====///  min-width 992px  /*/
 
     /*////====  CSS END ====////*/
 
 
 
 
-    /*////====  CSS START ====///  min-width 768px  /*/
+    /*////====  CSS START ====///  min-width 992px  /*/
 
     /*////====  CSS END ====////*/
 
 
 
 
-    /*////====  CSS START ====///  min-width 768px  /*/
-
-    /*////====  CSS END ====////*/
-
-
-
-
-    /*////====  CSS START ====///  min-width 768px  /*/
+    /*////====  CSS START ====///  min-width 992px  /*/
 
     /*////====  CSS END ====////*/
 }
@@ -77,35 +101,40 @@
 
 
 @media only screen and (min-width: 1200px){
-    /*////====  CSS START ====///  min-width 768px  /*/
+    /*////====  CSS START ====///  min-width 1200px  /*/
+    header{
+        height: 1200px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+    }
+    /*////====  CSS END ====////*/
+
+
+
+
+    /*////====  CSS START ====///  min-width 1200px  /*/
 
     /*////====  CSS END ====////*/
 
 
 
 
-    /*////====  CSS START ====///  min-width 768px  /*/
+    /*////====  CSS START ====///  min-width 1200px  /*/
 
     /*////====  CSS END ====////*/
 
 
 
 
-    /*////====  CSS START ====///  min-width 768px  /*/
+    /*////====  CSS START ====///  min-width 1200px  /*/
 
     /*////====  CSS END ====////*/
 
 
 
 
-    /*////====  CSS START ====///  min-width 768px  /*/
-
-    /*////====  CSS END ====////*/
-
-
-
-
-    /*////====  CSS START ====///  min-width 768px  /*/
+    /*////====  CSS START ====///  min-width 1200px  /*/
 
     /*////====  CSS END ====////*/
 }
