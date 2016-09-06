@@ -1,15 +1,17 @@
 /* For all pages */
-h2{
-    font-size: 30px;
-    font-family: 'Playfair Display', serif;
-    color: #fff;
-    letter-spacing: 2px;
-    padding: 0px;
+a{
+    text-decoration: none;
 }
-h3 .vito{
-    font-size: 60px;
+.monochrome{
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+    min-height: 550px;
+    max-height: 1200px;
+}
+h3.vito{
+    font-size: 40px;
     font-family: 'Playfair Display', serif;
-    color: #000;
+    font-weight: bold;
 }
 h4{
     font-size: 36px;
@@ -17,32 +19,28 @@ h4{
     color: #111111;
 }
 h5{
-    font-size: 22px;
-    font-family: 'Space Mono', monospace;
-    color: #404040;
-}
-p{
-    font-size: 24px;
-    font-family: 'Space Mono', monospace;
-    color: #000;
-}
-p little-paragrph{
     font-size: 18px;
     font-family: 'Space Mono', monospace;
     color: #404040;
 }
-black-btn{
-    font-size: 20px;
+p{
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+    color: #000;
+}
+p.little-paragrph{
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+    color: #404040;
+}
+.black-btn{
+    font-size: 16px;
     font-family: 'Space Mono', monospace;
     color: #fff;
+    padding: 15px 25px;
+    background: #000;
+    border: none;
 }
-.monochrome{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.7);
-}
-
 
 /*////==== HOME PAGE CSS START ====////*/
 /* Header start */
@@ -54,7 +52,13 @@ header{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    max-height: 1200px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 0px;
 }
 header h2 span:last-child{
     font-family: 'Space Mono', monospace;
@@ -141,7 +145,111 @@ header h2 span{
 .navbar-nav [class^="hvr-"] {
     background: transparent;
 }
+
 /* /Header end */
+
+/*  News strat */
+.news{
+    padding: 50px 0;
+}
+.black-bg{
+    background: #000;
+    padding: 30px 30px;
+    text-align: center;
+}
+.black-bg p{
+    line-height: 190%;
+    color: #fff;
+    margin-bottom: 70px;
+    font-size: 18px;
+    text-align: justify;
+    padding: 0 30px;
+}
+.black-bg a{
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+}
+h3.vito{
+    margin: 20px 0;
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+p.little-paragrph{
+    text-align: justify;
+    padding: 0 30px;
+    margin: 20px 0;
+}
+.black-btn{
+    margin-top: 20px;
+}
+.news-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*  /News end */
+
+/* Bricks start */
+.bricks{
+    background-image: url("style-img/bricks.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bricks div:first-child{
+    background: rgba(255,255,255,0.8);
+}
+.bricks div:first-child div:first-child{
+    background: transparent;
+}
+.bricks .portfolio{
+    padding: 50px 0 70px 0;
+}
+.portfolio-heading{
+    margin-top: 40px;
+}
+.half-first{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.half-second{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/* /Bricks end */
+
+/* Footer start */
+.socials{
+    background: #111111;
+    padding: 40px 0;
+}
+.socials ul li{
+    margin-right: 30px;
+}
+.socials ul li:last-of-type{
+    margin-right: 0px;
+}
+.socials .fa{
+    color: #fff;
+    font-size: 32px;
+}
+.author{
+    background: #171717;
+    padding: 30px 0 20px 0;
+    letter-spacing: 2px;
+}
+.author p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+.author p a{
+    color: #2fc989;
+}
+/* /Footer end */
 /*////==== HOME  PAGE END ====////*/
 
 

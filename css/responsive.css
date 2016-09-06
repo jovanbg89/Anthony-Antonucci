@@ -1,10 +1,40 @@
+
 @media only screen and (min-width: 768px){
-    /*////====  CSS START ====///  min-width 768px  /*/
+    h3.vito{
+        font-size: 60px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        color: #000;
+    }
+    h4{
+        font-size: 36px;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #111111;
+    }
+    h5{
+        font-size: 22px;
+        font-family: 'Space Mono', monospace;
+        color: #404040;
+    }
+    p{
+        font-size: 24px;
+        font-family: 'Space Mono', monospace;
+        color: #000;
+    }
+    p.little-paragrph{
+        font-size: 18px;
+        font-family: 'Space Mono', monospace;
+        color: #404040;
+    }
+    /*////==== HOME PAGE CSS START ====///  min-width 768px  /*/
     /* Header start */
     h2{
         letter-spacing: 10px;
         font-size: 50px;
         padding: 50px 0;
+    }
+    .monochrome{
+        min-height: 600px;
     }
     .navbar-header{
         float: right;
@@ -26,7 +56,62 @@
         padding: 15px;
     }
     /* /Header end */
-    /*////====  CSS END ====////*/
+
+    /*  News strat */
+    .news{
+        padding: 80px 0 100px 0;
+    }
+    .news-img{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    h3.vito{
+        font-size: 60px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        color: #000;
+        text-align: left;
+    }
+    h4{
+        font-size: 36px;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #111111;
+    }
+    h5{
+        font-size: 22px;
+        font-family: 'Space Mono', monospace;
+        color: #404040;
+        text-align: left;
+    }
+    .black-bg p{
+        margin-bottom: 45px;
+        font-size: 24px;
+        text-align: left;
+        padding: 0px;
+    }
+    p.little-paragrph{
+        text-align: left;
+        padding: 0px;
+    }
+    .black-btn{
+        font-size: 20px;
+        font-family: 'Space Mono', monospace;
+        color: #fff;
+        padding: 30px 50px;
+        background: #000;
+        border: none;
+    }
+    /*  /News end */
+
+    /* Bricks start */
+    .bricks .portfolio{
+        padding: 80px 0 130px 0;
+    }
+    .portfolio-heading{
+        margin-top: 70px;
+    }
+    /* /Bricks end */
+    /*////==== HOME PAGE CSS END ====////*/
 
 
 
@@ -62,6 +147,7 @@
 
 @media only screen and (min-width: 992px){
     /*////====  CSS START ====///  min-width 992px  /*/
+    /* Header start */
     h2{
         letter-spacing: 5px;
         font-size: 75px;
@@ -86,7 +172,47 @@
         font-size: 30px;
         padding: 25px 15px;
     }
+    /* /Header end */
 
+    /*  News strat */
+    .news{
+        padding: 130px 0 250px 0;
+    }
+    .news-img{
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    h3.vito{
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    p.little-paragrph{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .black-bg{
+        padding: 130px 50px;
+    }
+    .black-bg p{
+        margin-bottom: 60px;
+        line-height: 150%;
+    }
+    .black-bg a{
+        font-size: 18px;
+    }
+    .black-btn{
+        margin-top: 17px;
+    }
+    /*  /News end */
+
+    /* Bricks start */
+    .bricks .portfolio{
+        padding: 110px 0 200px 0;
+    }
+    .portfolio-heading{
+        margin-top: 150px;
+    }
+    /* /Bricks end */
     /*////====  CSS END ====////*/
 
 
@@ -123,6 +249,7 @@
 
 @media only screen and (min-width: 1200px){
     /*////====  CSS START ====///  min-width 1200px  /*/
+    /* Header start */
     h2{
         letter-spacing: 10px;
         font-size: 90px;
@@ -144,6 +271,22 @@
         font-size: 39px;
         padding: 35px 25px;
     }
+    /* /Header end */
+
+    /*  News strat */
+    .black-bg{
+        padding: 150px 60px;
+    }
+    /*  /News end */
+
+    /* Bricks start */
+    .bricks .portfolio{
+        padding: 150px 0 250px 0;
+    }
+    .portfolio-heading{
+        margin-top: 220px;
+    }
+    /* /Bricks end */
     /*////====  CSS END ====////*/
 
 
